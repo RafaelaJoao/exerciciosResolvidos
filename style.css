@@ -1,0 +1,26 @@
+.botao{
+    background-color: rgb(244, 248, 6);
+}
+
+.botao:hover{
+    background-color: rgb(207, 152, 193);
+}
+
+body {
+    text-align: center;
+    box-sizing: border-box; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.output {
+    font-weight: bold;
+}
+
+button{
+    font-size: medium;
+}
+
+.spanResult{
+    font-size: larger;
+}
