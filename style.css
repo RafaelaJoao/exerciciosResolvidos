@@ -23,4 +23,7 @@ button{
 
 .spanResult{
     font-size: larger;
+    width: 100px !important;
+    word-wrap: break-word !important;
+
 }

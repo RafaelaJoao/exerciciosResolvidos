@@ -7,18 +7,18 @@ calcular.addEventListener("click", () => {
     let string = []
 
     for(i=1; i <= input; i++){
-        if((i % 5 || i % 9) === 0){
-            string.push('LuidyMoura')
+        if((i % 5 === 0) && (i % 9 === 0)){
+            string.push(` LuidyMoura`)
             continue
         }
         if((i % 5) === 0){
-            string.push('Luydi')
+            string.push(` Luidy`)
             continue
         }else if((i % 9) === 0){
-            string.push('Moura')
+            string.push(` Moura`)
             continue
         }
-        string.push(i)
+        string.push(` ${i}`)
     }
 
    resposta.innerText = string

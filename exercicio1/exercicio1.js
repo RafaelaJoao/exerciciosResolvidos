@@ -9,11 +9,11 @@ calcular.addEventListener("click", () => {
   let resp
 
   if (ladoA === ladoB && ladoB === ladoC) {
-    resp = "TRIANGULO EQUILATERO";
+    resp = "TRIÂNGULO EQUILÁTERO";
   } else if ((ladoA === ladoB && ladoB !== ladoC) || (ladoB === ladoC && ladoC !== ladoA) || (ladoA === ladoC && ladoC !== ladoB)) {
-    resp = "TRIANGULO ISOSCELES"
+    resp = "TRIÂNGULO ISÓSCELES"
   } else if ((ladoA !== ladoB && ladoB !== ladoC) && (ladoB !== ladoC && ladoC !== ladoA) && (ladoA !== ladoC && ladoC !== ladoB)) {
-    resp = "TRIANGULO ESCALENO"
+    resp = "TRIÂGULO ESCALENO"
   }
 
   resposta.innerText = resp
